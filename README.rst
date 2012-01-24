@@ -1,10 +1,10 @@
-=============================================
-Question2Answer Captcha - AntiBot Captcha 1.0
-=============================================
+===================================
+Question2Answer AntiBot Captcha 1.1
+===================================
 -----------------------------
 Compatible with Q2A versions:
 -----------------------------
-- 1.5
+- 1.5+
 
 -----------
 Description
@@ -23,13 +23,13 @@ Installation
      at the command prompt (on Linux, Windows is a bit different)
    - To download directly, go to the `project page`_ and click **Download**
 
-#. Navigate to your site, go to **Admin > Spam** on your q2a install and go to option '**Use captcha module**' to change it to '**Captcha - AntiBot Captcha**'.
+#. Navigate to your site, go to **Admin > Spam** on your q2a install and go to option '**Use captcha module**' to change it to '**AntiBot Captcha**'.
 #. For more options, you can navigate to **Admin > Plugins** on your q2a install and go to section '**Captcha - AntiBot Captcha**', then customize the captcha plugin.
 
 .. _Question2Answer: http://www.question2answer.org/install.php
 .. _git: http://git-scm.com/
 .. _github:
-.. _project page: https://github.com/KrzysztofKielce/q2a-antibot-captcha
+.. _project page: https://github.com/KrzysztofKielce/q2a-captcha-antibot
 
 
 ----------

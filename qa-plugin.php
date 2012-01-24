@@ -1,5 +1,4 @@
 <?php
-
 /*
 	Question2Answer (c) Gideon Greenspan
 
@@ -25,27 +24,24 @@
 */
 
 /*
-	Plugin Name: Captcha - AntiBot Captcha
-	Plugin URI: 
+	Plugin Name: AntiBot Captcha
+	Plugin URI: https://github.com/KrzysztofKielce/q2a-captcha-antibot
 	Plugin Description: Provides support for AntiBot Captcha
-	Plugin Version: 1.0
-	Plugin Date: 2012-01-03
-	Plugin Author: Question2Answer
-	Plugin Author URI: http://www.question2answer.org/
-	Plugin License: GPLv2
+	Plugin Version: 1.1
+	Plugin Date: 2012-01-24
+	Plugin Author: Krzysztof Kielce
+	Plugin Author URI: http://www.question2answer.org/qa/user/Krzysztof+Kielce
+	Plugin License: GPLv3
 	Plugin Minimum Question2Answer Version: 1.5
-	Plugin Update Check URI:
+	Plugin Update Check URI: https://raw.github.com/KrzysztofKielce/q2a-captcha-antibot/master/qa-plugin.php
 */
-
 
 	if (!defined('QA_VERSION')) { // don't allow this page to be requested directly from browser
 		header('Location: ../../');
 		exit;
 	}
 
-
-	qa_register_plugin_module('captcha', 'qa-antibot-captcha.php', 'qa_antibot_captcha', 'Captcha - AntiBot Captcha');
-	
+	qa_register_plugin_module('captcha', 'qa-antibot-captcha.php', 'qa_antibot_captcha', 'AntiBot Captcha');
 
 /*
 	Omit PHP closing tag to help avoid accidental output
